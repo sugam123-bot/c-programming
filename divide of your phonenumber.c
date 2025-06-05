@@ -1,22 +1,3 @@
-/*#include <stdio.h>
-int main (){
-	long long phoneNumber;
-	float div=1;
-	printf("Enter your phone number:\n");
-	scanf("%lld", &phoneNumber);
-	while (phoneNumber !=0){
-		div /= phoneNumber % 10;
-		if (phoneNumber !=0){
-			div /=phoneNumber;
-		}else {
-			printf("Warning: Skippinf division by zero digit.\n");
-			return 1;
-		}
-		phoneNumber /=10;	}
-		printf("The divide of your phone number is %f", div);
-		return 0;
-}
-*/
 #include <stdio.h>
 
 int main () {
