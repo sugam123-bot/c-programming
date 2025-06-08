@@ -1,4 +1,4 @@
-# beginner in c programming
+# C programming
 
 # 🧠 History of C Programming Language
 
