@@ -2,7 +2,8 @@
 #include <stdio.h>
 int main (){
 	long long numbers;
-	int i, a, r=0;
+	int i, a;
+	long long r=0;
 	printf("Enter the number you want to reverse:\n");
 	scanf("%lld", &numbers);
 	
