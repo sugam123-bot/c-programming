@@ -8,5 +8,6 @@ int main(){
 	gets(string);
 	strlwr(string);
 	printf("String after strlwr:%s\n", string);
-	return 0;
+	return 0; 
 }
+
