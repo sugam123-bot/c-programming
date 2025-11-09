@@ -1,0 +1,18 @@
+#include <graphics.h>
+#include <conio.h>
+
+int main()
+{
+    int gd = DETECT, gm;
+    initgraph(&gd, &gm, (char*)"");
+
+    
+    rectangle(100, 200, 400, 400);
+
+    getch();
+    closegraph();
+    return 0;
+}
+
+ 
+
